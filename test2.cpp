@@ -171,7 +171,7 @@ while (1)
 	cin >> choice;
 	cout<< "///////////////////////////" << endl;
 
-
+int colm;
 	string flight_name;
 	bool at_least_single_sheet;
 	int num_of_seats, row, i, uniq_flight;
@@ -349,9 +349,18 @@ while (1)
 							if(seat_col !='A' && seat_col !='B' && seat_col !='C' && seat_col !='D' && seat_col !='E' && seat_col !='F'){
 								cout<<"Invalid input"<<endl;
 								break;
-							}else{
-								cout<<"v :"<<v<<endl<<"row: "<<seat_row<<endl<<"col :"<<seat_col<<endl;
-								cout<<"lol :"<<A[v].eclass[seat_row+1][seat_col]<<endl;
+							}
+							int colm = (int)'A';
+							cout<<"A :"<< col<<endl;
+//							else if{ int col = (int)A;}
+//							else if{ int col = (int)B;}
+//							else if{ int col = (int)C;}
+//							else if{ int col = (int)D;}
+//							else if{ int col = (int)E;}
+//							else if{ int col = (int)F;}
+//			
+//								cout<<"v :"<<v<<endl<<"row: "<<seat_row<<endl<<"col :"<<seat_col<<endl;
+//								cout<<"lol :"<<A[v].eclass[seat_row+1][col]<<endl;
 								
 //								for(int i=1;i<61;i++) {
 //	 								cout<< i << " - " ;
@@ -382,7 +391,7 @@ while (1)
 							}
 						}
 					}	
-				}
+			//	}
 
 
 				break;
